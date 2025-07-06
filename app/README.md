@@ -51,7 +51,10 @@ yarn dev
 
 📄 License
 This project is MIT licensed.
-📄Inspired by this YouTube tutorial
+## 📝 Inspiration & Credits
+This project is based on [this YouTube tutorial](https://www.youtube.com/watch?v=uIQDNVbaQn8&t=797s) by [Creator Name].  
+I am extending and customizing the original concept as part of my learning journey.
+
 🙋‍♂️ Contact
 madhusahitya.works@gmail.com
 

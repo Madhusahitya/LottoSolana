@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🎰 SolanaLotto – Decentralized Lottery Game (WIP)
+Welcome to SolanaLotto, a decentralized lottery game built on the Solana blockchain!
+This project is currently a work in progress, inspired by this YouTube tutorial, and will evolve into a feature-rich, production-ready DApp.
 
-## Getting Started
+🚧 Project Status
+> Note: This project is under active development.
+> Core features are being implemented, and many exciting enhancements are planned!
 
-First, run the development server:
+✨ Planned Features
+🔗 Wallet Integration: Connect with Phantom and other Solana wallets.
+🎟️ Buy Tickets: Purchase lottery tickets using SOL.
+💰 View Pot: See the current jackpot and number of participants in real time.
+🏆 Recent Winners: Transparent display of previous winners and their prizes.
+📈 Transaction History: Track your ticket purchases and winnings.
+🛡️ Provable Fairness: All draws are verifiable on-chain.
+📱 Responsive UI: Modern, mobile-friendly design.
+🔔 Notifications: Get instant feedback on your actions (success, errors, etc.).
+🌑 Dark Mode: Switch between light and dark themes.
+🧪 Testing: Unit and integration tests for reliability.
+🚀 Deployment: Live demo on Vercel/Netlify.
+🛠️ Tech Stack
+Frontend: React, Next.js
+Blockchain: Solana, @project-serum/anchor
+Wallets: @solana/wallet-adapter
+UI: CSS Modules, React Hot Toast
+📦 Project Structure
+Apply to README.md
 
-```bash
-npm run dev
-# or
+I am extending the original concept with new features, a modern UI, and additional wallet support.
+🚀 Roadmap
+[x] Set up Next.js and Solana wallet adapter
+[x] Basic UI: Header, PotCard, Table
+[x] Phantom wallet integration
+[ ] Enable ticket purchase with SOL
+[ ] Display current pot and participants
+[ ] Show recent winners
+[ ] Add notifications for user actions
+[ ] Add support for more wallets (Solflare, Torus, etc.)
+[ ] Responsive and modern UI improvements
+[ ] Add transaction history
+[ ] Implement dark mode
+[ ] Write unit and integration tests
+[ ] Deploy to Vercel/Netlify
+[ ] Polish and document for production
+
+🏗️ How to Run (Development)
+git clone https://github.com/yourusername/solana-lotto.git
+cd solana-lotto/app
+yarn install
 yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📄 License
+This project is MIT licensed.
+📄Inspired by this YouTube tutorial
+🙋‍♂️ Contact
+madhusahitya.works@gmail.com
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you like this project, please give it a ⭐ on GitHub and follow for updates!
